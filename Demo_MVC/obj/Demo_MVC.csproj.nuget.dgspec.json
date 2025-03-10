@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PTPM_Quan_ly\\Demo_MVC\\Demo_MVC.csproj": {}
+    "D:\\Net-Core-API\\Demo_MVC\\Demo_MVC.csproj": {}
   },
   "projects": {
-    "E:\\PTPM_Quan_ly\\Demo_MVC\\Demo_MVC.csproj": {
+    "D:\\Net-Core-API\\Demo_MVC\\Demo_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PTPM_Quan_ly\\Demo_MVC\\Demo_MVC.csproj",
+        "projectUniqueName": "D:\\Net-Core-API\\Demo_MVC\\Demo_MVC.csproj",
         "projectName": "Demo_MVC",
-        "projectPath": "E:\\PTPM_Quan_ly\\Demo_MVC\\Demo_MVC.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\PTPM_Quan_ly\\Demo_MVC\\obj\\",
+        "projectPath": "D:\\Net-Core-API\\Demo_MVC\\Demo_MVC.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Net-Core-API\\Demo_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -43,6 +43,32 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
